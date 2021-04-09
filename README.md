@@ -18,8 +18,10 @@
 <h3>Hybrod Apps</h3>
 <li>In case of Hybrid Application, we can made or build it using one or more Code Base.</li>
 <li>Xamarin, Cordava, Ionic, ReactNative are some frameworks used in building of Hybrid Apps but in case of Advanced features they are not compatible. So, we use flutter which have a lot of features that is lacking in other frameworks.</li>
-<h3>Flutter</h3>
-<li></li>
+<h3>How Flutter Different ?</h3>
+<li>Flutter used Dart as a language so we basically develope flutter using Dart</li>
+<li>Dart is strongly typed object oriented language developed by Google</li>
+<li>Dart has very fast development cycle because it supports JIT(Just in Time) Compilation which is a kind of compilation that results in faster compilation of code during application developement that is whenever we make any changes to our code, we can able to reload our application in our device very fastly in no time. It is called as a Heart reload of the Application.</li>
 <h3>Flutter</h3>
 <li></li>
 <h3>Flutter</h3>
