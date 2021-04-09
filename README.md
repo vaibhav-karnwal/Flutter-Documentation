@@ -22,6 +22,8 @@
 <li>Flutter used Dart as a language so we basically develope flutter using Dart</li>
 <li>Dart is strongly typed object oriented language developed by Google</li>
 <li>Dart has very fast development cycle because it supports JIT(Just in Time) Compilation which is a kind of compilation that results in faster compilation of code during application developement that is whenever we make any changes to our code, we can able to reload our application in our device very fastly in no time. It is called as a Heart reload of the Application.</li>
+<li>When app is ready to launch in market Dart supports AOT(Ahead of Time) Compilation.</li>
+<li></li>
 <h3>Flutter</h3>
 <li></li>
 <h3>Flutter</h3>
