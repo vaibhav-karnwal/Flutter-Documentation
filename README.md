@@ -19,11 +19,12 @@ In case of Native Apps we use native tools as
 ### In Web Apps
 * Html, Css and Javascript used to build responsive websites for android and Ios Display.
 
-### Hybrod Apps
+### Hybrid Apps
 * In case of Hybrid Application, we can made or build it using one or more Code Base.
 * Xamarin, Cordava, Ionic, ReactNative are some frameworks used in building of Hybrid Apps but in case of Advanced features they are not compatible. So, we use flutter which have a lot of features that is lacking in other frameworks.
 
 ### How Flutter Different ?
+
 * Flutter used Dart as a language so we basically develope flutter using Dart
 * Dart is strongly typed object oriented language developed by Google
 * Dart has very fast development cycle because it supports JIT(Just in Time) Compilation which is a kind of compilation that results in faster compilation of code during application developement that is whenever we make any changes to our code, we can able to reload our application in our device very fastly in no time. It is called as a Heart reload of the Application.
@@ -38,12 +39,12 @@ and open source.
 We think Flutter will help you create beautiful, fast apps, with a productive,
 extensible and open development model.
 
-## Documentation
+## Flutter Downloading Procedure
 
-* [Install Flutter](https://flutter.dev/get-started/)
-* [Flutter documentation](https://flutter.dev/docs)
-* [Development wiki](https://github.com/flutter/flutter/wiki)
-* [Contributing to Flutter](https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md)
+* Go to https://flutter.dev/get-started/ [Install Flutter](https://flutter.dev/get-started/)
+* Then Click on Window/Mac/IOS 
+* Then scroll a little down and You will see a new release flutter_windows-stable.zip SDK.
+* Click on it and downloading will Start
 
 For announcements about new releases and breaking changes, follow the
 [flutter-announce@googlegroups.com](https://groups.google.com/forum/#!forum/flutter-announce)
