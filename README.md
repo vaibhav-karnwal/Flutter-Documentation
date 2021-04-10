@@ -23,21 +23,37 @@ In case of Native Apps we use native tools as
 * In case of Hybrid Application, we can made or build it using one or more Code Base.
 * Xamarin, Cordava, Ionic, ReactNative are some frameworks used in building of Hybrid Apps but in case of Advanced features they are not compatible. So, we use flutter which have a lot of features that is lacking in other frameworks.
 
+## About Flutter
+
+Flutter is Google's SDK for crafting beautiful, fast user experiences for
+mobile, web, and desktop from a single codebase. Flutter works with existing
+code and is used by developers and organizations around the world. It is free
+and open source.
+We think Flutter will help you create beautiful, fast apps, with a productive,
+extensible and open development model.
+* It is a Single Code Base(Dart) which means we only have to write our app once for multiple devices.
+
+
+### Why Use Flutter?
+
+* Only i code base.
+* Good layout methodology borrowed from responsive web
+* Very smooth and quick experience when running apps
+* Works well with Firebase as a backend.
+* Uses Dart, Which is a really easy language to pick up
+* Uses Material Design out of the box.
+
 ### How Flutter Different ?
 
 * Flutter used Dart as a language so we basically develope flutter using Dart
 * Dart is strongly typed object oriented language developed by Google
 * Dart has very fast development cycle because it supports JIT(Just in Time) Compilation which is a kind of compilation that results in faster compilation of code during application developement that is whenever we make any changes to our code, we can able to reload our application in our device very fastly in no time. It is called as a Heart reload of the Application.
 * When app is ready to launch in market Dart supports AOT(Ahead of Time) Compilation.
-
-## 
-
-Flutter is Google's SDK for crafting beautiful, fast user experiences for
-mobile, web, and desktop from a single codebase. Flutter works with existing
-code, is used by developers and organizations around the world, and is free
-and open source.
-We think Flutter will help you create beautiful, fast apps, with a productive,
-extensible and open development model.
+* In this type of compilation while runnin application on device, it is much much faster , so for end user it provides seemless user experience.
+* So we can say for developers, JIT helps in faster app development and after development for app users, AOT provides faster application execution.
+* So as flutter uses Dart so it made flutter different from other frameworks and helps in faster development.
+* Flutter provides similar user experience compared to Native Apps like Android and IOS.
+* Maintaing code for user is very very easy due to having single code base property.
 
 ## Flutter Downloading Procedure
 
