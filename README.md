@@ -4,15 +4,18 @@
 * Native Frameworks
 * Hybrid Apps
 * Developing Mobile Apps using Web Apps
+
 ### In Native Apps
 In case of Native Apps we use native tools as
 * for developing Android device we use Java and Kotlin
 * for developing Ios we use objective C and Swift
 * Native Frameworks is used by Google and Apple thats why they gets updated with new features in regular intervals
+
 ###Disadvantage of Native Frameworks
 * When we develope native application, we have to create two seperate application for both platforms.
 * Which means we have to made two code base for each platforms, which requires a lot of time and resources.
 * It also cost a lot of money.
+
 ###In Web Apps
 * Html, Css and Javascript used to build responsive websites for android and Ios Display.
 ###Hybrod Apps
