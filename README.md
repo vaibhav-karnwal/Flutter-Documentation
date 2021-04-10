@@ -1,7 +1,7 @@
 # Flutter-Documentation
 
-<h3>Ways to create Mobile Apps</h3>
-<li>Native Frameworks</li>
+## Ways to create Mobile Apps
+* [Native Frameworks]
 <li>Hybrid Apps</li>
 <li>Developing Mobile Apps using Web Apps</li>
 <h3>In Native Apps</h3>
