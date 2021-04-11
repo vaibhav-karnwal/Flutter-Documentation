@@ -155,6 +155,12 @@ This Property all has a value a widget that is FloatingActionButton().
 
 <img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/floatingactionbutton.PNG" alt="home" width="550" height="350"/>
 
+### onPressed
+
+floatingActionButton property contains another property which serve it functions when anyone presses it. It is called as "onPressed: () {}".
+
+
+
 ## Style
 
 * centerTitle --> used to center the text in title in AppBar (centerTitle: true)
