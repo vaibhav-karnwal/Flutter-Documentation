@@ -148,7 +148,7 @@ Center Widet Centerlizes whatever is nested inside it. In center Widget we have 
 
 TextStyle Widget is used to help in implementing styles to text. Here we use this property in text widget only after giving text in inverted commas.
 
-<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/textstyle.PNG" alt="home" width="550"/>
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/textstyle.PNG" alt="home" width="550"/> 
 
 ## How to remove Debug line from corner
 
@@ -161,7 +161,7 @@ which also contains a child property to use more widget in it like Text('click')
 
 <img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/floatingactionbutton1.PNG" alt="home" width="550"/>
 
-#### * onPressed
+* #### onPressed
 
 floatingActionButton property contains another property which serve it functions when anyone presses it. It is called as "onPressed: () {}".
 
@@ -169,6 +169,19 @@ floatingActionButton property contains another property which serve it functions
 
 * centerTitle --> used to center the text in title in AppBar (centerTitle: true)
 * backgroundColor --> used to set background color (backgroundColor: Colors.red)
+
+## Fonts
+
+* if we want to add specific font style to the text of our content of materialApp then
+* we first have to go to the google fonts then
+* download the specific fonts we want to set to our app text
+* then we have to extract it from zip file and have to add it to our app by creating a folder name as fonts
+* we have to open our pubspec.yaml file and then scroll it down
+* we will get a fonts: as commented there
+* just uncomment it and
+* set family name as the font family we downloaded and 
+* asset as the location of our font family .ttf file.
+* now type get  the terminal 
 
 Flutter is a fully open-source project, and we welcome contributions.
 Information on how to get started can be found at our
