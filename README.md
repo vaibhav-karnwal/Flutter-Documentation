@@ -115,7 +115,7 @@ Material App is a pre-defined class used in the flutter. It contains widgets tha
 
 ### Home Property
 
- <img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/home.png"
+ <img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/home.png"/>
 
 This home property shows what is gona be on the home screen. So, we can give as a paramenter, a calling function or a simple string using Text Widget.
 
