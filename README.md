@@ -171,7 +171,7 @@ StatelessWidgets are used when the part of the UI is not changing dynamically i.
 
 To create a Stateless Widget, you need to extend our class from StatelessWidget and we also need to override the build method that will return one or more widgets. The following is an example of StatelessWidget:
 
-<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/stateless.jpg" alt="home" width="550"/> 
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/Stateless.jpg" alt="home" width="550"/> 
 
 The above code is an example of StatelessWidget where MyApp is a StatelessWidget and it is overriding the build method. The build method is returning a MaterialApp widget and this method will be called only once i.e. whenever the MyApp will be initialized then build will be called and the widgets will be drawn on the screen.
 
@@ -189,7 +189,7 @@ StatefulWidgets are used when the part of the UI changes dynamically i.e. when w
 
 we need to extend our class from StatefulWidget and here instead of overriding the build method, we need to override the createState() method. The createState() method returns a State object. Then we create another class that is extended from State and here in this class, we need to override the build method and this build method will return one or more widgets. The following is an example of a StatefulWidget:
 
-<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/statefull.jpg" alt="home" width="550"/> 
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/Statefull.jpg" alt="home" width="550"/> 
 
 In the above example, MyApp is a StatefulWidget and it is overriding the createState() method. This method is returning the instance of MyAppState class and inside this class, we are overriding the build method.
 
