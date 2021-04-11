@@ -159,10 +159,6 @@ which also contains a child property to use more widget in it like Text('click')
 
 floatingActionButton property contains another property which serve it functions when anyone presses it. It is called as "onPressed: () {}".
 
-#### backgroundColor
-
-To change the background color of button, we can use backgroundColor: Colors.red
-
 ## Style
 
 * centerTitle --> used to center the text in title in AppBar (centerTitle: true)
