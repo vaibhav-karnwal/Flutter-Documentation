@@ -135,7 +135,15 @@ What we gona do is
 ## Body Property
 
 This property specifies what content is go inside this body of the screen under the appBar.
+
 <img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/body.PNG" alt="home" width="550" height="250"/>
+
+## Center Widget
+
+Center Widet Centerlizes whatever is nested inside it. In center Widget we have a child property. We can't place text inside of it like that so for that we use child property.
+
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/Center.PNG" alt="home" width="550" height="250"/>
+
 
 ## Style
 
