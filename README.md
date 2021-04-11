@@ -108,13 +108,13 @@ with support for both [FFI] and [platform-specific APIs][platform channels].
 
 As you know App is build by using lots of widgets or we can say .... widget are the backbone of flutter App. Here we use Widget as a child, root, siblings... Its a tree of widgets.
 
-### MaterialApp Widget
+## MaterialApp Widget
 
  <img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/materialApp.PNG" alt="home" width="550" height="250"/>
 Material App is a pre-defined class used in the flutter. It contains widgets that are used for the material design of an application. It contains title as a first parameter and second it contains home widget which helps it to use again the material widget.
 
 
-### Home Property
+## Home Property
 
  <img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/home.png" alt="home" width="550" height="250"/>
 This home property shows what is gona be on the home screen. So, we can give as a paramenter, a calling function or a simple string using Text Widget.
