@@ -136,7 +136,7 @@ Its like a wrapper to some different layout widgets. Things like the appBar, bod
 
 This property specifies what content is go inside this body of the screen under the appBar.
 
-<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/body.PNG" alt="home" width="550" height="250"/>
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/body.PNG" alt="body" width="550" height="250"/>
 
 ## Center Widget
 
