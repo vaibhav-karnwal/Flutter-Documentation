@@ -122,7 +122,7 @@ This home property shows what is gona be on the home screen. So, we can give as 
 
 ## Scaffold Widget
 
-Scaffold Widget is gona allow us to implement a basic layout for our App. It helps us to setup a nav bar on the top of our App and some floating buttons like Textbutton, Flatbutton and many more. 
+Scaffold Widget is gona allow us to implement a basic layout for our App. It helps us to setup a appBar on the top of our App and some FloatingActionButtons like Textbutton, Flatbutton and many more. 
 What we gona do is
 * first remove all the stuff after home: 
 * then write Scaffold() after it.
@@ -130,7 +130,7 @@ What we gona do is
 * where we will give new AppBar to appBar property.. which also contains a lot of property and widgets whatever we want like title,  all the text, button, layout, shape all of the stuff we want in appbar is given with there styling property.
 
 <img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/scaffold.PNG" alt="home" width="550" height="250"/>
-
+Its like a wrapper to some different layout widgets. Things like the appBar, body and floatingActionButton.
 
 ## Body Property
 
@@ -144,6 +144,16 @@ Center Widet Centerlizes whatever is nested inside it. In center Widget we have 
 
 <img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/Center.PNG" alt="home" width="550" height="250"/>
 
+## How to remove Debug line from corner
+
+debugShowCheckedModeBanner : false
+
+## floatingActionButton Property
+
+This Property all has a value a widget that is FloatingActionButton().
+* This property also contains a child to use more widget in it like Text('click').
+
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/floatingactionbutton.PNG" alt="home" width="550" height="250"/>
 
 ## Style
 
@@ -152,10 +162,6 @@ Center Widet Centerlizes whatever is nested inside it. In center Widget we have 
 Flutter is a fully open-source project, and we welcome contributions.
 Information on how to get started can be found at our
 [contributor guide](CONTRIBUTING.md).
-
-## How to remove Debug line from corner
-
-debugShowCheckedModeBanner : false
 
 [Flutter logo]: https://raw.githubusercontent.com/flutter/website/master/src/_assets/image/flutter-lockup-bg.jpg
 [flutter.dev]: https://flutter.dev
