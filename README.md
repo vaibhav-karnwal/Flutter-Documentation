@@ -158,6 +158,7 @@ This Property all has a value a widget that is FloatingActionButton().
 ## Style
 
 * centerTitle --> used to center the text in title in AppBar (centerTitle: true)
+* backgroundColor --> used to set background color in AppBar (backgroundColor: Colors.red)
 
 Flutter is a fully open-source project, and we welcome contributions.
 Information on how to get started can be found at our
