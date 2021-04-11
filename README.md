@@ -120,6 +120,17 @@ Material App is a pre-defined class used in the flutter. It contains widgets tha
 This home property shows what is gona be on the home screen. So, we can give as a paramenter, a calling function or a simple string using Text Widget.
 
 
+## Scaffold Widget
+
+Scaffold Widget is gona allow us to implement a basic layout for our App. It helps us to setup a nav bar on the top of our App and some floating buttons like Textbutton, Flatbutton and many more. 
+What we gona do is
+* first remove all the stuff after home: 
+* then write Scaffold() after it.
+* and in the Scaffold widget we gona add a appBar property which will help in building app bar at top.
+* where we will give new AppBar to appBar property.. which also contains a lot of property and widgets whatever we want like title,  all the text, button, layout, shape all of the stuff we want in appbar is given with there styling property.
+
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/scaffold.PNG" alt="home" width="550" height="250"/>
+
 Flutter is a fully open-source project, and we welcome contributions.
 Information on how to get started can be found at our
 [contributor guide](CONTRIBUTING.md).
