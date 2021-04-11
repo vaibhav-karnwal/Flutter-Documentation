@@ -103,6 +103,18 @@ provides [thousands of packages][Flutter packages] to speed your development,
 regardless of your target platform. And accessing other native code is easy,
 with support for both [FFI] and [platform-specific APIs][platform channels].
 
+
+## Lets Start
+
+As you know App is build by using lots of widgets or we can say .... widget are the backbone of flutter App. Here we use Widget as a child, root, siblings... Its a tree of widgets.
+
+### Home Property
+
+ <img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/home.png"
+
+This home property shows what is gona be on the home screen. So, we can give as a paramenter, a calling function or a simple string using Text Widget.
+
+
 Flutter is a fully open-source project, and we welcome contributions.
 Information on how to get started can be found at our
 [contributor guide](CONTRIBUTING.md).
