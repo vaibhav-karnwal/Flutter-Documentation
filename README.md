@@ -181,7 +181,11 @@ floatingActionButton property contains another property which serve it functions
 * just uncomment it and
 * set family name as the font family we downloaded and 
 * asset as the location of our font family .ttf file.
-* now type get  the terminal 
+* now click on get dependencies that will show above when you again open the main.dart file or type flutter pub get 
+* then just type fontFamily: 'fontfamilyname'
+
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/font1.PNG" alt="home" width="750"/>
+
 
 Flutter is a fully open-source project, and we welcome contributions.
 Information on how to get started can be found at our
