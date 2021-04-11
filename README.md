@@ -150,21 +150,23 @@ debugShowCheckedModeBanner : false
 
 ## floatingActionButton Property
 
-This Property all has a value a widget that is FloatingActionButton().
-* This property also contains a child to use more widget in it like Text('click').
+This Property also has a value 'widget' that is FloatingActionButton().
+which also contains a child property to use more widget in it like Text('click').
 
-<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/floatingactionbutton.PNG" alt="home" width="550" height="350"/>
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/floatingactionbutton1.PNG" alt="home" width="550" height="350"/>
 
-### onPressed
+#### onPressed
 
 floatingActionButton property contains another property which serve it functions when anyone presses it. It is called as "onPressed: () {}".
 
+#### backgroundColor
 
+To change the background color of button, we can use backgroundColor: Colors.red
 
 ## Style
 
 * centerTitle --> used to center the text in title in AppBar (centerTitle: true)
-* backgroundColor --> used to set background color in AppBar (backgroundColor: Colors.red)
+* backgroundColor --> used to set background color (backgroundColor: Colors.red)
 
 Flutter is a fully open-source project, and we welcome contributions.
 Information on how to get started can be found at our
