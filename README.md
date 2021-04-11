@@ -165,6 +165,67 @@ which also contains a child property to use more widget in it like Text('click')
 
 floatingActionButton property contains another property which serve it functions when anyone presses it. It is called as "onPressed: () {}".
 
+## StatelessWidget
+
+StatelessWidgets are used when the part of the UI is not changing dynamically i.e. we are having the static content only and are immutable.
+
+To create a Stateless Widget, you need to extend our class from StatelessWidget and we also need to override the build method that will return one or more widgets. The following is an example of StatelessWidget:
+
+class MyApp extends StatelessWidget {
+ @override
+ Widget build(BuildContext context) {
+   return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Example'),
+          backgroundColor: Colors.blueGrey[900],
+        ),
+        backgroundColor: Colors.white,
+        body: Container(),
+      ),
+    );
+  }
+}
+The above code is an example of StatelessWidget where MyApp is a StatelessWidget and it is overriding the build method. The build method is returning a MaterialApp widget and this method will be called only once i.e. whenever the MyApp will be initialized then build will be called and the widgets will be drawn on the screen.
+
+But if there is a change in any of the variables associated with the Widgets, then the build method will not be called and nothing will be updated on the screen because it is StatelessWidget.
+
+### Note: 
+To create a StatelessWidget, we can type stless and press enter in VS code or Android Studio.
+To change the state of the Widgets based on the state of the variables associated with the Widgets, we use StatefulWidgets.
+
+## StatefulWidget
+
+StatefulWidgets are used when the part of the UI changes dynamically i.e. when we have mutable widgets then we use StatefulWidget.
+
+### To create a Stateful Widget, we need to extend our class from StatefulWidget and here instead of overriding the build method, we need to override the createState() method. The createState() method returns a State object. Then we create another class that is extended from State and here in this class, we need to override the build method and this build method will return one or more widgets. The following is an example of a StatefulWidget:
+
+class MyApp extends StatefulWidget {
+ @override
+ _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+ @override
+ Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Example'),
+          backgroundColor: Colors.blueGrey[900],
+        ),
+        backgroundColor: Colors.white,
+        body: Container(),
+      ),
+    );
+  }
+}
+In the above example, MyApp is a StatefulWidget and it is overriding the createState() method. This method is returning the instance of MyAppState class and inside this class, we are overriding the build method.
+
+So, the advantage of overriding the build method in MyAppState is that now the build method will be called whenever there is a change in the variables associated with the Widgets present in it and the whole widget will be redrawn once again. But in order to call the build method, we need to add another method called setState() that will call the build method whenever there is a change in the state.
+
+Note: To create a StatefulWidget, you can type stful and press enter in VS code or Android Studio.
+
 ## Style
 
 * centerTitle --> used to center the text in title in AppBar (centerTitle: true)
