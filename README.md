@@ -129,20 +129,26 @@ What we gona do is
 * and in the Scaffold widget we gona add a appBar property which will help in building app bar at top.
 * where we will give new AppBar to appBar property.. which also contains a lot of property and widgets whatever we want like title,  all the text, button, layout, shape all of the stuff we want in appbar is given with there styling property.
 
-<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/scaffold.PNG" alt="home" width="550" height="250"/>
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/scaffold.PNG" alt="home" width="550"/>
 Its like a wrapper to some different layout widgets. Things like the appBar, body and floatingActionButton.
 
 ## Body Property
 
 This property specifies what content is go inside this body of the screen under the appBar.
 
-<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/body1.PNG" alt="body" width="550" height="250"/>
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/body1.PNG" alt="body" width="550"/>
 
 ## Center Widget
 
 Center Widet Centerlizes whatever is nested inside it. In center Widget we have a child property. We can't place text inside of it like that so for that we use child property.
 
-<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/Center.PNG" alt="home" width="550" height="250"/>
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/Center.PNG" alt="home" width="550"/>
+
+## style property and TextStyle widget
+
+TextStyle Widget is used to help in implementing styles to text. Here we use this property in text widget only after giving text in inverted commas.
+
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/textstyle.PNG" alt="home" width="550"/>
 
 ## How to remove Debug line from corner
 
@@ -153,9 +159,9 @@ debugShowCheckedModeBanner : false
 This Property also has a value 'widget' that is FloatingActionButton().
 which also contains a child property to use more widget in it like Text('click').
 
-<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/floatingactionbutton1.PNG" alt="home" width="550" height="350"/>
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/floatingactionbutton1.PNG" alt="home" width="550"/>
 
-#### onPressed
+#### * onPressed
 
 floatingActionButton property contains another property which serve it functions when anyone presses it. It is called as "onPressed: () {}".
 
