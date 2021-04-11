@@ -153,7 +153,7 @@ debugShowCheckedModeBanner : false
 This Property all has a value a widget that is FloatingActionButton().
 * This property also contains a child to use more widget in it like Text('click').
 
-<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/floatingactionbutton.PNG" alt="home" width="550" height="250"/>
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/floatingactionbutton.PNG" alt="home" width="550" height="350"/>
 
 ## Style
 
