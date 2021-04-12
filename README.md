@@ -197,6 +197,16 @@ So, the advantage of overriding the build method in MyAppState is that now the b
 
 Note: To create a StatefulWidget, you can type stful and press enter in VS code or Android Studio.
 
+##FlatButton Widget
+
+Flatbutton Widget also used as a value of child property, where it contains or use many widgets like text, icon, and many more with there styling property. Flatbutton is shown on the screen without the shadow all around.
+
+### Icons in FlatButton Widget
+
+Icon Widget is used as a icon property value. 
+
+<img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/icon.jpg" alt="home" width="550"/> 
+
 ## Style
 
 * centerTitle --> used to center the text in title in AppBar (centerTitle: true)
