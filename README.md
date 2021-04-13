@@ -221,6 +221,62 @@ Flatbutton Widget also used as a value of child property, where it contains or u
 Icon Widget is used as a icon property value. 
 
 <img src="https://github.com/vaibhav-karnwal/Flutter-Documentation/blob/main/img/iconwithraisedbutton.jpg" alt="home" width="550"/> 
+
+## FractionalOffset class
+
+* They are used to represent the sides of the rectangle. 
+* For specifing whcih side we have to put the widget.
+* For specifing what will be the color of that side 
+
+The FractionalOffset class specifies offsets in terms of a distance from the top left, regardless of the TextDirection.
+
+#### Example
+
+``` sh
+
+where - (left/right , up/bottom)
+
+up/left if (0.0)
+bottom/right if (1.0)
+center if (0.5)
+
+bottomCenter → const FractionalOffset
+The center point along the bottom edge.
+   FractionalOffset(0.5, 1.0)
+
+bottomLeft → const FractionalOffset
+The bottom left corner.
+   FractionalOffset(0.0, 1.0)
+   
+bottomRight → const FractionalOffset
+The bottom right corner.
+   FractionalOffset(1.0, 1.0)
+   
+center → const FractionalOffset
+The center point, both horizontally and vertically.
+   FractionalOffset(0.5, 0.5)
+   
+centerLeft → const FractionalOffset
+The center point along the left edge.
+   FractionalOffset(0.0, 0.5)
+
+centerRight → const FractionalOffset
+The center point along the right edge.
+   FractionalOffset(1.0, 0.5)
+
+topCenter → const FractionalOffset
+The center point along the top edge.
+   FractionalOffset(0.5, 0.0)
+
+topLeft → const FractionalOffset
+The top left corner.
+   FractionalOffset(0.0, 0.0)
+
+topRight → const FractionalOffset
+The top right corner.
+   FractionalOffset(1.0, 0.0)
+```
+
 ## Style
 
 * centerTitle --> used to center the text in title in AppBar (centerTitle: true)
